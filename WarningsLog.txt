@@ -1,0 +1,18 @@
+[20:28:59] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:29:05] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:43:31] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:44:54] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:45:34] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:45:59] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:46:21] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:47:36] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:47:57] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:48:29] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:48:50] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:50:10] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:50:31] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:50:53] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:53:37] File: src\PxVehicleUpdate.cpp(3156) | PhysX(2): Unable to compute new PxVehicleDrive4W internal rotation speeds.  Please check vehicle sim data, especially clutch strength; engine moi and damping; wheel moi and damping
+[20:53:38] File: GAPIControllers\D3D11Controller.cpp(252) | CD3D11Controller: present failed!!
+[20:57:42] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[20:59:14] File: GAPIControllers\D3D11Controller.cpp(252) | CD3D11Controller: present failed!!

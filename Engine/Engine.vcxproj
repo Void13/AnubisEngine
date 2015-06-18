@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Affector.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Animation.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\AnimationInstance.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\AnimationManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Animation_xmlHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Base.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\BasicImage.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\BasicRenderedStringParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\BidiVisualMapping.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\BoundSlot.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CEGUI.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CentredRenderedString.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ChainedXMLHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Clipboard.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Colour.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ColourRect.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CommonDialogs\ColourPicker\ColourPicker.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CommonDialogs\ColourPicker\Controls.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CommonDialogs\ColourPicker\Conversions.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CommonDialogs\ColourPicker\Types.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CommonDialogs\Module.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CompositeResourceProvider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Config.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Config_xmlHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\CoordConverter.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\DataContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\DefaultLogger.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\DefaultRenderedStringParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\DefaultResourceProvider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\DynamicModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Element.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Event.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\EventArgs.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\EventSet.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Exceptions.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FactoryModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FactoryRegisterer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\ComponentBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\Dimensions.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\Enums.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\EventAction.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\EventLinkDefinition.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\FalagardPropertyBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\FormattingSetting.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\FrameComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\ImageryComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\ImagerySection.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\LayerSpecification.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\NamedArea.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\NamedDefinitionCollator.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\PropertyDefinition.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\PropertyDefinitionBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\PropertyInitialiser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\PropertyLinkDefinition.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\SectionSpecification.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\StateImagery.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\TextComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\WidgetComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\WidgetLookFeel.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\WidgetLookManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\XMLEnumHelper.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\falagard\XMLHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Font.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FontGlyph.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FontManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Font_xmlHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FormattedRenderedString.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ForwardRefs.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FreeFunctionSlot.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FreeTypeFont.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FribidiVisualMapping.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FunctorCopySlot.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FunctorPointerSlot.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FunctorReferenceBinder.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\FunctorReferenceSlot.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\GlobalEventSet.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\GUIContext.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\GUILayout_xmlHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\IconvStringTranscoder.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Image.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\Corona\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\Corona\ImageCodecModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\DevIL\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\DevIL\ImageCodecModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\FreeImage\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\FreeImage\ImageCodecModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\PVR\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\PVR\ImageCodecModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\SILLY\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\SILLY\ImageCodecModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\STB\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\STB\ImageCodecModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\TGA\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageCodecModules\TGA\ImageCodecModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageFactory.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ImageManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\InjectedInputReceiver.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\InputEvent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Interpolator.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\IteratorBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\JustifiedRenderedString.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\KeyFrame.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\LeftAlignedRenderedString.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\LinkedEvent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Logger.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MemberFunctionSlot.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MemoryAllocatedObject.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MemoryAllocation.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MemoryOgreAllocator.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MemoryStdAllocator.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MemorySTLWrapper.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MinibidiVisualMapping.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MinizipResourceProvider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ModuleConfig.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\MouseCursor.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\NamedElement.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\NamedXMLResourceManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\PCRERegexMatcher.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\PixmapFont.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Property.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\PropertyHelper.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\PropertySet.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Quaternion.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Rect.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RefCounted.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RegexMatcher.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderedString.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderedStringComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderedStringImageComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderedStringParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderedStringTextComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderedStringWidgetComponent.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderedStringWordWrapper.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderEffect.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderEffectFactory.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderEffectManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D10\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D10\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D10\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D10\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D10\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D10\ViewportTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D11\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D11\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D11\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D11\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D11\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D11\ViewportTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D9\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D9\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D9\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D9\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D9\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Direct3D9\ViewportTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\DirectFB\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\DirectFB\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\DirectFB\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\DirectFB\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\EventPusher.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\MemoryFile.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\RendererDef.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\ResourceProvider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Irrlicht\WindowTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Null\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Null\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Null\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Null\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Null\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\ImageCodec.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\ResourceProvider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\Ogre\WindowTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGLES\FBOTextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGLES\GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGLES\GLES.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGLES\Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGLES\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGLES\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGLES\ViewportTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\ApplePBTextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GeometryBufferBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GL.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GL3FBOTextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GL3GeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GL3Renderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GLFBOTextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GLGeometryBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GlmPimpl.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GLRenderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\GLXPBTextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\RendererBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\Shader.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\ShaderManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\StandardShaderFrag.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\StandardShaderVert.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\StateChangeWrapper.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\ViewportTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RendererModules\OpenGL\WGLPBTextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderingContext.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderingSurface.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderingWindow.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderQueue.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RenderTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ResourceProvider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\RightAlignedRenderedString.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Scheme.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\SchemeManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Scheme_xmlHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ScriptModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ScriptModules\Lua\Functor.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\ScriptModules\Lua\ScriptModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\SimpleTimer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Singleton.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Size.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\SlotFunctorBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\String.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\StringTranscoder.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\SubscriberSlot.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\System.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\SystemKeys.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Texture.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TextureTarget.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TextUtils.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplInterpolators.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplProperty.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplWindowFactory.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplWindowFactoryRegisterer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplWindowProperty.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplWindowRendererFactory.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplWindowRendererProperty.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TplWRFactoryRegisterer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\TypedProperty.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\UDim.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Vector.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Version.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Vertex.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\All.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ButtonBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ClippedContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Combobox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ComboDropList.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\DefaultWindow.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\DragContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Editbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\FrameWindow.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\GridLayoutContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\GroupBox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\HorizontalLayoutContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ItemEntry.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ItemListBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ItemListbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\LayoutCell.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\LayoutContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Listbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ListboxItem.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ListboxTextItem.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ListHeader.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ListHeaderSegment.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Menubar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\MenuBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\MenuItem.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\MultiColumnList.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\MultiLineEditbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\PopupMenu.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ProgressBar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\PushButton.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\RadioButton.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ScrollablePane.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Scrollbar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ScrolledContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ScrolledItemListBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\SequentialLayoutContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Slider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Spinner.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\TabButton.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\TabControl.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Thumb.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Titlebar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\ToggleButton.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Tooltip.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\Tree.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\TreeItem.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\widgets\VerticalLayoutContainer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Win32StringTranscoder.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\Window.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowFactory.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowFactoryManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRenderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Button.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Default.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Editbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\FrameWindow.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\ItemEntry.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\ItemListbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Listbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\ListHeader.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\ListHeaderSegment.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Menubar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\MenuItem.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Module.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\MultiColumnList.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\MultiLineEditbox.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\PopupMenu.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\ProgressBar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\ScrollablePane.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Scrollbar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Slider.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Static.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\StaticImage.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\StaticText.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\TabButton.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\TabControl.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Titlebar.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\ToggleButton.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Tooltip.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\WindowRendererSets\Core\Tree.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLAttributes.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\Expat\XMLParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\Expat\XMLParserModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\Libxml2\XMLParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\Libxml2\XMLParserModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\RapidXML\XMLParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\RapidXML\XMLParserModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\TinyXML\XMLParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\TinyXML\XMLParserModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\Xerces\XMLParser.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\Xerces\XMLParserModule.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLParserModules\Xerces\XMLParserProperties.h" />
+    <ClInclude Include="..\3rdparty\Includes\CEGUI\XMLSerializer.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\config.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\devil_internal_exports.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\il.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\ilu.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\ilut.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\ilut_config.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\ilu_region.h" />
+    <ClInclude Include="..\3rdparty\Includes\DevIL\il_wrap.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxBoxController.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxCapsuleController.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxCharacter.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxController.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxControllerBehavior.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxControllerManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxControllerObstacles.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\characterkinematic\PxExtended.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cloth\PxCloth.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cloth\PxClothCollisionData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cloth\PxClothFabric.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cloth\PxClothParticleData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cloth\PxClothTypes.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxCollection.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxCoreUtilityTypes.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxIO.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxMathUtils.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxMetaData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxMetaDataFlags.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxPhysicsInsertionCallback.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxPhysXCommonConfig.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxRenderBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxSerialFramework.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxSerializer.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxStringTable.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxTolerancesScale.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\PxTypeInfo.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\common\windows\PxWindowsDelayLoadHook.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cooking\Pxc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cooking\PxConvexMeshDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cooking\PxCooking.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cooking\PxGaussMapLimit.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\cooking\PxTriangleMeshDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxBinaryConverter.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxBroadPhaseExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxClothFabricCooker.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxClothMeshDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxClothMeshQuadifier.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxClothTetherCooker.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxCollectionExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxConstraintExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxD6Joint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxDefaultAllocator.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxDefaultCpuDispatcher.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxDefaultErrorCallback.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxDefaultSimulationFilterShader.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxDefaultStreams.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxDistanceJoint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxExtensionsAPI.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxFixedJoint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxJoint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxJointLimit.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxJointRepXSerializer.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxParticleExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxPrismaticJoint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxRepXSerializer.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxRepXSimpleType.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxRevoluteJoint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxRigidBodyExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxSerialization.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxShapeExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxSimpleFactory.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxSmoothNormals.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxSphericalJoint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxStringTableExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxTriangleMeshExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\extensions\PxVisualDebuggerExt.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\Ps.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsAlignedMalloc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsAlloca.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsAllocator.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsAoS.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsArray.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsAtomic.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsBasicTemplates.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsBitUtils.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsCpu.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsErrorHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsFastIPC.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsFastMemory.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsFastXml.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsFile.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsFoundation.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsFPU.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsHash.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsHashInternals.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsHashMap.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsHashSet.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsInlineAllocator.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsInlineAoS.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsInlineArray.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsIntrinsics.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsIPC.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsMathUtils.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsMemoryMappedFile.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsMutex.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsPAEventSrc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsPAProfileZone.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsPool.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsPrintString.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsRingBuffer.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsSList.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsSocket.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsSort.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsSortInternals.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsString.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsSync.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsTempAllocator.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsThread.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsTime.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsUserAllocated.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsUtilities.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsVecMath.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsVecMathAoSScalar.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsVecMathAoSScalarInline.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsVecMathUtilities.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsVecQuat.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\PsVecTransform.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsPAGPUEventSrc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsAoS.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsFile.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsFPU.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsInclude.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsInlineAoS.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsIntrinsics.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsLoadLibrary.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsModuleUpdateLoader.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsString.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\include\windows\PsWindowsTrigConstants.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\Px.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxAllocatorCallback.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxAssert.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxBitAndData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxBounds3.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxBroadcastingAllocator.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxErrorCallback.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxErrors.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxFlags.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxFoundation.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxIntrinsics.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxIO.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxMat33.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxMat44.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxMath.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxMemory.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxPlane.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxPreprocessor.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxQuat.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxSimpleTypes.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxStrideIterator.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxString.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxTransform.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxUnionCast.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxVec2.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxVec3.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxVec4.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\PxVersionNumber.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\windows\PxWindowsIntrinsics.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\foundation\windows\PxWindowsString.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxBoxGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxCapsuleGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxConvexMesh.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxConvexMeshGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxGeometryHelpers.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxGeometryQuery.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxHeightField.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxHeightFieldDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxHeightFieldFlag.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxHeightFieldGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxHeightFieldSample.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxMeshQuery.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxMeshScale.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxPlaneGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxSimpleTriangleMesh.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxSphereGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxTriangle.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxTriangleMesh.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\geometry\PxTriangleMeshGeometry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\gpu\PxParticleGpu.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleBaseFlag.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleCreationData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleFlag.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleFluid.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleFluidReadData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleReadData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\particles\PxParticleSystem.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileBase.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileCompileTimeEventFilter.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileContextProvider.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventBufferClient.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventBufferClientManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventFilter.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventHandler.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventId.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventMutex.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventNames.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEvents.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventSender.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileEventSystem.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileMemoryEventTypes.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileScopedEvent.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileZone.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxprofilesdk\PxProfileZoneManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdBits.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdConnection.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdConnectionFlags.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdConnectionManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdDataStream.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdDataStreamHelpers.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdErrorCodes.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdImmediateRenderer.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdNetworkStreams.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdObjectModelBaseTypeDefs.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdObjectModelBaseTypes.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdObjectModelMetaData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\physxvisualdebuggersdk\PvdSimpleErrorStream.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pvd\PxVisualDebugger.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxActor.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxAggregate.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxArticulation.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxArticulationJoint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxArticulationLink.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxBatchQuery.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxBatchQueryDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxBroadPhase.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxClient.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxConstraint.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxConstraintDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxContact.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxContactModifyCallback.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxDeletionListener.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxFiltering.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxForceMode.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxLockedData.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxMaterial.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxPhysics.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxPhysicsAPI.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxPhysXConfig.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxQueryFiltering.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxQueryReport.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxRigidActor.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxRigidBody.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxRigidDynamic.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxRigidStatic.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxScene.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxSceneDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxSceneLock.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxShape.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxSimulationEventCallback.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxSimulationStatistics.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxSpatialIndex.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxCpuDispatcher.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxCudaContextManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxCudaMemoryManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxGpuCopyDesc.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxGpuCopyDescQueue.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxGpuDispatcher.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxGpuTask.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxSpuDispatcher.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxSpuTask.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxTask.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\pxtask\PxTaskManager.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxVisualizationParameter.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\PxVolumeCache.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleComponents.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleDrive.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleDrive4W.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleDriveNW.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleDriveTank.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleNoDrive.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleSDK.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleShaders.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleTireFriction.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleUpdate.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleUtil.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleUtilControl.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleUtilSetup.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleUtilTelemetry.h" />
+    <ClInclude Include="..\3rdparty\Includes\PhysX\vehicle\PxVehicleWheels.h" />
+    <ClInclude Include="..\Helpers\AMFModelLoader.h" />
+    <ClInclude Include="..\Helpers\CLangHelper.h" />
+    <ClInclude Include="..\Helpers\DirectXMath\DirectXColor.h" />
+    <ClInclude Include="..\Helpers\DirectXMath\DirectXSH.h" />
+    <ClInclude Include="..\Helpers\DistributedObjectCreator.h" />
+    <ClInclude Include="..\Helpers\EngineInputEvents.h" />
+    <ClInclude Include="..\Helpers\EnginePCH.h" />
+    <ClInclude Include="..\Helpers\ErrorHandler.h" />
+    <ClInclude Include="..\Helpers\ErrorList.h" />
+    <ClInclude Include="..\Helpers\EventList.h" />
+    <ClInclude Include="..\Helpers\EventManager.h" />
+    <ClInclude Include="..\Helpers\FileHelper.h" />
+    <ClInclude Include="..\Helpers\FINI.h" />
+    <ClInclude Include="..\Helpers\HRTimer2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Helpers\HRTimer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Helpers\IntersectionMath.h" />
+    <ClInclude Include="..\Helpers\LerpTable.h" />
+    <ClInclude Include="..\Helpers\LogManager.h" />
+    <ClInclude Include="..\Helpers\MathHelper.h" />
+    <ClInclude Include="..\Helpers\MeshSimplifier.h" />
+    <ClInclude Include="..\Helpers\ObjectGeometryConstructor.h" />
+    <ClInclude Include="..\Helpers\Singleton.h" />
+    <ClInclude Include="..\Helpers\Strings.h" />
+    <ClInclude Include="Source\Actors\BaseActor.h" />
+    <ClInclude Include="Source\Actors\Camera.h" />
+    <ClInclude Include="Source\Actors\Object.h" />
+    <ClInclude Include="Source\Actors\PrimitiveObjects.h" />
+    <ClInclude Include="Source\Actors\SimpleActor.h" />
+    <ClInclude Include="Source\Actors\Vehicle.h" />
+    <ClInclude Include="Source\GraphicsRenderers\BaseMeshRenderer.h" />
+    <ClInclude Include="Source\GAPIControllers\BaseGAPIController.h" />
+    <ClInclude Include="Source\GAPIControllers\D3D11Controller.h" />
+    <ClInclude Include="Source\GraphicsRenderers\BaseGraphicsRenderer.h" />
+    <ClInclude Include="Source\GraphicsRenderers\BaseModelRenderer.h" />
+    <ClInclude Include="Source\GraphicsRenderers\BaseTexture2D.h" />
+    <ClInclude Include="Source\GraphicsRenderers\D3D11\D3D11GraphicsRenderer.h" />
+    <ClInclude Include="Source\GraphicsRenderers\D3D11\D3D11Texture2D.h" />
+    <ClInclude Include="Source\GraphicsRenderers\D3D11\ModelRenderer.h" />
+    <ClInclude Include="Source\GraphicsRenderers\D3D11\MeshRenderer.h" />
+    <ClInclude Include="Source\GraphicsRenderers\D3D11\ShadersManager.h" />
+    <ClInclude Include="Source\GraphicsRenderers\D3D11\SolidPrimitiveRenderer.h" />
+    <ClInclude Include="Source\GraphicsRenderers\D3D11\WireframePrimitiveRenderer.h" />
+    <ClInclude Include="Source\GraphicsRenderers\Material.h" />
+    <ClInclude Include="Source\GraphicsRenderers\RawMesh.h" />
+    <ClInclude Include="Source\GraphicsRenderers\VertexStructs.h" />
+    <ClInclude Include="Source\InputControllers\BaseInputController.h" />
+    <ClInclude Include="Source\InputControllers\DirectInput.h" />
+    <ClInclude Include="Source\InputControllers\InputManager.h" />
+    <ClInclude Include="Source\MainLoopHandler.h" />
+    <ClInclude Include="Source\OSAPIControllers\BaseOSAPIController.h" />
+    <ClInclude Include="Source\OSAPIControllers\BaseScreenshotTaker.h" />
+    <ClInclude Include="Source\OSAPIControllers\ScreenshotTaker.h" />
+    <ClInclude Include="Source\OSAPIControllers\WindowsOSController.h" />
+    <ClInclude Include="Source\OSAPIControllers\WindowsScreenshotTaker.h" />
+    <ClInclude Include="Source\Physics\BasePhysicsBehavior.h" />
+    <ClInclude Include="Source\Physics\CameraBehavior.h" />
+    <ClInclude Include="Source\Physics\FilterShader.h" />
+    <ClInclude Include="Source\Physics\PhysXLoader.h" />
+    <ClInclude Include="Source\Physics\PrimitivesBehavior.h" />
+    <ClInclude Include="Source\Physics\Rescaling.h" />
+    <ClInclude Include="Source\Physics\ShapeCreator.h" />
+    <ClInclude Include="Source\Physics\Vehicle\Vehicle4WSimulationData.h" />
+    <ClInclude Include="Source\Physics\Vehicle\VehicleBehavior.h" />
+    <ClInclude Include="Source\Physics\Vehicle\VehicleManager.h" />
+    <ClInclude Include="Source\Physics\Vehicle\VehicleRaycast.h" />
+    <ClInclude Include="Source\Physics\Vehicle\VehicleTireFriction.h" />
+    <ClInclude Include="Source\Physics\Vehicle\VehicleWheelQueryResult.h" />
+    <ClInclude Include="Source\ResourceManager\Resource.h" />
+    <ClInclude Include="Source\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="Source\ResourceManager\Resource_Model.h" />
+    <ClInclude Include="Source\ResourceManager\Resource_Texture.h" />
+    <ClInclude Include="Source\SettingsHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Helpers\AMFModelLoader.cpp" />
+    <ClCompile Include="..\Helpers\DirectXMath\DirectXColor.cpp" />
+    <ClCompile Include="..\Helpers\DirectXMath\DirectXSH.cpp" />
+    <ClCompile Include="..\Helpers\DirectXMath\DirectXSHD3D11.cpp" />
+    <ClCompile Include="..\Helpers\DistributedObjectCreator.cpp" />
+    <ClCompile Include="..\Helpers\EnginePCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Helpers\EventManager.cpp" />
+    <ClCompile Include="..\Helpers\FileHelper.cpp" />
+    <ClCompile Include="..\Helpers\HRTimer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Helpers\IntersectionMath.cpp" />
+    <ClCompile Include="..\Helpers\LogManager.cpp" />
+    <ClCompile Include="..\Helpers\MathHelper.cpp" />
+    <ClCompile Include="..\Helpers\MeshSimplifier.cpp" />
+    <ClCompile Include="..\Helpers\ObjectGeometryConstructor.cpp" />
+    <ClCompile Include="..\Helpers\Strings.cpp" />
+    <ClCompile Include="Source\Actors\BaseActor.cpp" />
+    <ClCompile Include="Source\Actors\Camera.cpp" />
+    <ClCompile Include="Source\Actors\Object.cpp" />
+    <ClCompile Include="Source\Actors\PrimitiveObjects.cpp" />
+    <ClCompile Include="Source\Actors\Vehicle.cpp" />
+    <ClCompile Include="Source\GAPIControllers\D3D11Controller.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\BaseMeshRenderer.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\BaseModelRenderer.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\D3D11\D3D11GraphicsRenderer.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\D3D11\D3D11Texture2D.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\D3D11\MeshRenderer.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\D3D11\ModelRenderer.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\D3D11\ShadersManager.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\D3D11\SolidPrimitiveRenderer.cpp" />
+    <ClCompile Include="Source\GraphicsRenderers\D3D11\WireframePrimitiveRenderer.cpp" />
+    <ClCompile Include="Source\InputControllers\DirectInput.cpp" />
+    <ClCompile Include="Source\InputControllers\InputManager.cpp" />
+    <ClCompile Include="Source\MainLoopHandler.cpp" />
+    <ClCompile Include="Source\OSAPIControllers\ScreenshotTaker.cpp" />
+    <ClCompile Include="Source\OSAPIControllers\WindowsOSController.cpp" />
+    <ClCompile Include="Source\OSAPIControllers\WindowsScreenshotTaker.cpp" />
+    <ClCompile Include="Source\Physics\BasePhysicsBehavior.cpp" />
+    <ClCompile Include="Source\Physics\FilterShader.cpp" />
+    <ClCompile Include="Source\Physics\PhysXLoader.cpp" />
+    <ClCompile Include="Source\Physics\PrimitivesBehavior.cpp" />
+    <ClCompile Include="Source\Physics\Rescaling.cpp" />
+    <ClCompile Include="Source\Physics\ShapeCreator.cpp" />
+    <ClCompile Include="Source\Physics\Vehicle\Vehicle4WSimulationData.cpp" />
+    <ClCompile Include="Source\Physics\Vehicle\VehicleBehavior.cpp" />
+    <ClCompile Include="Source\Physics\Vehicle\VehicleManager.cpp" />
+    <ClCompile Include="Source\Physics\Vehicle\VehicleRaycast.cpp" />
+    <ClCompile Include="Source\Physics\Vehicle\VehicleTireFriction.cpp" />
+    <ClCompile Include="Source\Physics\Vehicle\VehicleWheelQueryResult.cpp" />
+    <ClCompile Include="Source\ResourceManager\ResourceManager.cpp" />
+    <ClCompile Include="Source\ResourceManager\Resource_Model.cpp" />
+    <ClCompile Include="Source\ResourceManager\Resource_Texture.cpp" />
+    <ClCompile Include="Source\SettingsHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\shaders\Sources\Header.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\shaders\Sources\Renderer.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\data\shaders\Sources\SolidPrimitiveRenderer.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\data\shaders\Sources\WireframePrimitiveRenderer.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8993A2B1-4EF4-4FE4-BA03-45F8DBA59C06}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\Bin\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir)\Helpers;$(SolutionDir)\3rdparty\Includes;$(ProjectDir)\Source;$(ProjectDir)\Source\Actors;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\3rdparty\Libraries;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\Bin\$(Configuration)\</OutDir>
+    <LibraryPath>$(SolutionDir)\3rdparty\Libraries;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\Helpers;$(SolutionDir)\3rdparty\Includes;$(ProjectDir)\Source;$(ProjectDir)\Source\Actors;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderFile>EnginePCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>EnginePCH.h</PrecompiledHeaderFile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,349 @@
+[20:28:59] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:28:59] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:28:59] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:28:59] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:28:59] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:28:59] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:28:59] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:28:59] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:28:59] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:28:59] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:28:59] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:28:59] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:28:59] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:28:59] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:28:59] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 28465768
+[20:28:59] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:28:59] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:28:59] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:28:59] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:29:01] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-29-01.png
+[20:29:03] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:29:03] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:29:05] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:29:05] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:29:05] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:29:05] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:29:05] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:29:05] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:29:05] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:29:05] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:29:05] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:29:05] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:29:05] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:29:05] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:29:05] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:29:05] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:29:05] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 28465768
+[20:29:05] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:29:05] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:29:05] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:29:05] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:29:07] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-29-07.png
+[20:30:17] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-30-17.png
+[20:31:58] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-31-58.png
+[20:33:03] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-33-03.png
+[20:34:07] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-34-07.png
+[20:35:02] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-35-02.png
+[20:37:49] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-37-48.png
+[20:39:11] File: OSAPIControllers\ScreenshotTaker.cpp(102) | Screenshot was taked: ScreenShot_2014-12-28 20-39-11.png
+[20:40:33] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:40:33] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:43:31] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:43:31] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:43:31] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:43:31] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:43:31] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:43:31] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:43:31] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:43:31] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:43:31] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:43:31] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:43:31] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:43:31] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:43:31] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:43:31] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:43:31] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 18569832
+[20:43:31] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:43:31] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:43:31] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:43:31] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:43:44] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:43:44] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:44:53] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:44:53] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:44:53] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:44:53] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:44:53] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:44:53] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:44:53] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:44:53] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:44:53] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:44:53] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:44:54] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:44:54] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:44:54] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:44:54] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:44:54] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 8477304
+[20:44:54] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:44:54] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:44:54] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:44:54] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:45:00] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:45:00] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:45:34] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:45:34] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:45:34] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:45:34] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:45:34] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:45:34] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:45:34] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:45:34] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:45:34] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:45:34] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:45:34] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:45:34] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:45:34] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:45:34] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:45:34] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 25320056
+[20:45:34] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:45:35] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:45:35] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:45:35] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:45:36] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:45:36] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:45:58] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:45:58] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:45:58] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:45:58] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:45:58] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:45:58] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:45:58] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:45:58] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:45:58] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:45:58] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:45:58] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:45:59] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:45:59] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:45:59] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:45:59] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 28007032
+[20:45:59] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:45:59] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:45:59] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:45:59] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:46:03] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:46:03] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:46:21] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:46:21] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:46:21] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:46:21] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:46:21] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:46:21] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:46:21] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:46:21] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:46:21] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:46:21] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:46:21] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:46:21] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:46:21] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:46:21] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:46:21] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 17586808
+[20:46:21] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:46:21] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:46:21] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:46:21] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:46:23] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:46:23] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:47:35] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:47:35] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:47:35] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:47:35] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:47:35] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:47:35] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:47:35] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:47:35] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:47:35] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:47:35] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:47:35] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:47:36] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:47:36] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:47:36] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:47:36] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 19683960
+[20:47:36] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:47:36] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:47:36] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:47:36] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:47:37] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:47:37] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:47:57] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:47:57] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:47:57] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:47:57] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:47:57] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:47:57] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:47:57] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:47:57] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:47:57] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:47:57] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:47:57] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:47:57] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:47:57] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:47:57] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:47:57] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 8739448
+[20:47:57] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:47:57] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:47:57] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:47:57] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:47:59] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:47:59] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:48:28] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:48:28] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:48:28] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:48:28] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:48:28] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:48:28] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:48:28] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:48:28] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:48:28] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:48:28] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:48:29] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:48:29] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:48:29] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:48:29] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:48:29] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 20470392
+[20:48:29] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:48:29] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:48:29] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:48:29] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:48:31] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:48:31] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:48:50] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:48:50] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:48:50] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:48:50] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:48:50] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:48:50] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:48:50] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:48:50] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:48:50] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:48:50] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:48:50] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:48:50] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:48:50] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:48:50] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:48:50] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 10902136
+[20:48:50] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:48:50] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:48:50] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:48:50] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:48:56] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:48:56] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:50:10] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:50:10] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:50:10] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:50:10] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:50:10] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:50:10] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:50:10] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:50:10] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:50:10] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:50:10] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:50:10] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:50:10] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:50:10] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:50:10] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:50:10] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 21846648
+[20:50:10] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:50:10] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:50:10] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:50:10] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:50:11] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:50:11] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:50:30] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:50:30] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:50:30] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:50:30] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:50:31] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:50:31] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:50:31] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:50:31] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:50:31] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:50:31] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:50:31] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:50:31] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:50:31] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:50:31] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:50:31] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 16472696
+[20:50:31] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:50:31] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:50:31] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:50:31] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:50:35] File: ResourceManager\ResourceManager.cpp(179) | CResourceManager: Thread has been started
+[20:50:35] File: Source\MainLoopHandler.cpp(110) | App is shutdowned.
+
+
+[20:50:52] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:50:52] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:50:52] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:50:52] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:50:52] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:50:52] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:50:52] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:50:52] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:50:52] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:50:52] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:50:53] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:50:53] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:50:53] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:50:53] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:50:53] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 24730232
+[20:50:53] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:50:53] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:50:53] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:50:53] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:50:56] File: OSAPIControllers\WindowsOSController.cpp(164) | CWindowsOSController: window has been resized
+[20:53:38] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:57:42] File: Helpers\LogManager.cpp(16) | LogManager: Initialized
+[20:57:42] File: helpers\EventManager.h(90) | CEventManager: Thread has been started
+[20:57:42] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:57:42] File: OSAPIControllers\WindowsOSController.cpp(59) | CWindowsOSController: window has been created
+[20:57:42] File: OSAPIControllers\WindowsOSController.cpp(176) | CWindowsOSController: window has been resized
+[20:57:42] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted
+[20:57:42] File: GAPIControllers\D3D11Controller.cpp(116) | CD3D11Controller: device has been created
+[20:57:42] File: D3D11\ShadersManager.cpp(66) | Added constant buffer with size 160
+[20:57:42] File: D3D11\D3D11GraphicsRenderer.cpp(68) | CD3D11GraphicsRenderer: initializated
+[20:57:42] File: InputControllers\DirectInput.cpp(177) | CDirectInput: input has been created
+[20:57:42] File: Source\MainLoopHandler.cpp(279) | CMainLoopHandler: Initialized
+[20:57:42] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:57:42] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: SolidPrimitiveRenderer.hlsl, VS_Render
+[20:57:42] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: SolidPrimitiveRenderer.hlsl, PS_Render
+[20:57:42] File: D3D11\ShadersManager.cpp(133) | Added sampler state with id 27548280
+[20:57:42] File: D3D11\ShadersManager.cpp(185) | Created input layout
+[20:57:42] File: D3D11\ShadersManager.cpp(391) | Created vertex shader: WireframePrimitiveRenderer.hlsl, VS_WIRE_Render
+[20:57:42] File: D3D11\ShadersManager.cpp(437) | Created pixel shader: WireframePrimitiveRenderer.hlsl, PS_WIRE_Render
+[20:57:42] File: D3D11\ShadersManager.cpp(482) | Created geometry shader: WireframePrimitiveRenderer.hlsl, GS_WIRE_Render
+[20:59:14] File: GAPIControllers\D3D11Controller.cpp(225) | CD3D11Controller: device has been resetted

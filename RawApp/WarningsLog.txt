@@ -1,0 +1,15 @@
+[15:34:01] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[15:34:01] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[15:34:01] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[15:34:01] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[15:34:01] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:19:37] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:19:37] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:19:37] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:19:37] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:19:37] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:24:05] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:24:05] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:24:05] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:24:05] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.
+[16:24:05] File: src\NpRigidStatic.cpp(113) | PhysX(128): Static actor moved. Not recommended while the actor is part of a scene.

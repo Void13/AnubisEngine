@@ -1,0 +1,2 @@
+[20:53:38] File: GAPIControllers\D3D11Controller.cpp(247) | SwapBuffersFailed
+[20:59:21] File: GAPIControllers\D3D11Controller.cpp(247) | SwapBuffersFailed
